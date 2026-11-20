@@ -1,0 +1,4 @@
+{
+  "description": "Displays context-window usage above the Claude Code prompt.",
+  "modules": ["./register.tsx"]
+}

@@ -1,0 +1,5 @@
+{
+  "name": "context-meter",
+  "version": "0.1.0",
+  "description": "Shows Claude Code context usage and a low, moderate, or high context-load indicator."
+}

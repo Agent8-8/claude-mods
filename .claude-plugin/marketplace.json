@@ -1,0 +1,1 @@
+{"name":"claude-mods","owner":{"name":"Ryan"},"plugins":[{"name":"project-panel","source":"./plugins/project-panel","description":"Edit the current project's instructions (PROJECT.md) in a side pane"},{"name":"context-meter","source":"./plugins/context-meter","description":"Shows how full the chat context is, with a low/medium/high indicator"}]}
