@@ -51,6 +51,9 @@ Install these from their own repos.
 |---|---|---|
 | **ecc** (Everything Claude Code) v2.2.3 | https://github.com/affaan-m/ECC | `/plugin marketplace add affaan-m/ECC`, then `/plugin install ecc@ecc`. My settings: `hooks_enabled: true`, `hook_profile: "standard"`. |
 | **caveman** (marketplace only, nothing installed from it) | https://github.com/JuliusBrussee/caveman | Registered as a marketplace, no plugin enabled. |
+| **token-optimizer** v5.13.75 | https://github.com/alexgreensh/token-optimizer | `/plugin marketplace add alexgreensh/token-optimizer`, then `/plugin install token-optimizer@alexgreensh-token-optimizer` (user scope). Run `/token-optimizer` once afterwards to set up its hooks. PolyForm Noncommercial licence. |
+| **clawd-buddy** (menu bar mod: Clawd plus context, limits, burn-rate and cache meters) v1.5.0 | https://github.com/Agent8-8/claude-menu-bar-mod | My fork of https://github.com/zhanbodev/clawd-buddy for the desktop app. Install steps are in that repo's README. |
+| **imessage** v0.2.0 | `claude-plugins-official` marketplace | Official plugin, user scope: `/plugin install imessage@claude-plugins-official`. |
 | **effort-picker**, **handoff**, **replay-theater**, **team-tracker** (mods v0.1.0) | repo unknown (author in manifests: "WeAreNoCode") | Third-party mods living in `~/.claude/mods/`. Not copied here because I don't have their licence or repo. **TODO: add the repo link.** |
 
 ## 3. Installed third-party skills (in `~/.claude/skills`, not in this repo)
