@@ -49,20 +49,23 @@ Install these from their own repos.
 
 | Plugin | GitHub | Notes |
 |---|---|---|
-| **ecc** (Everything Claude Code) v2.2.3 | https://github.com/affaan-m/ECC | `/plugin marketplace add affaan-m/ECC`, then `/plugin install ecc@ecc`. My settings: `hooks_enabled: true`, `hook_profile: "standard"`. |
-| **caveman** (marketplace only, nothing installed from it) | https://github.com/JuliusBrussee/caveman | Registered as a marketplace, no plugin enabled. |
+| **ecc** (Everything Claude Code) v2.2.3, ~308k stars | https://github.com/affaan-m/ECC | `/plugin marketplace add affaan-m/ECC`, then `/plugin install ecc@ecc`. My settings: `hooks_enabled: true`, `hook_profile: "standard"`. |
+| **caveman** (marketplace only, nothing installed from it), ~122k stars | https://github.com/JuliusBrussee/caveman | Registered as a marketplace, no plugin enabled. |
 | **token-optimizer** v5.13.75 | https://github.com/alexgreensh/token-optimizer | `/plugin marketplace add alexgreensh/token-optimizer`, then `/plugin install token-optimizer@alexgreensh-token-optimizer` (user scope). Run `/token-optimizer` once afterwards to set up its hooks. PolyForm Noncommercial licence. |
 | **imessage** v0.2.0 | `claude-plugins-official` marketplace | Official plugin, user scope: `/plugin install imessage@claude-plugins-official`. |
-| **effort-picker**, **handoff**, **replay-theater**, **team-tracker** (mods v0.1.0) | repo unknown (author in manifests: "WeAreNoCode") | Third-party mods living in `~/.claude/mods/`. Not copied here because I don't have their licence or repo. **TODO: add the repo link.** |
+| **effort-picker**, **handoff**, **replay-theater**, **team-tracker** (mods v0.1.0) | no public source found | Author in the manifests is "WeAreNoCode". The only matching repo, [nicman101/wearenocode-claude-mods](https://github.com/nicman101/wearenocode-claude-mods), contains just a README with no code. These come from the WeAreNoCode community and live in `~/.claude/mods/`. Not copied here since I can't confirm their licence. Ask the WeAreNoCode community for the files. |
 
 ## 3. Installed third-party skills (in `~/.claude/skills`, not in this repo)
 
 | Skill | Source |
 |---|---|
-| impeccable | https://github.com/pbakaus/impeccable |
-| graphify | repo unknown (author handle in the skill: safishamsi) |
-| apple-design, emil-design-eng, design-review, review-animations, design-taste-frontend, spline-interactive | repo unknown. **TODO: add links.** |
-| captions-overlay, changelog-video, cut-the-curve, motion-doctrine, oversized-cursor, seam-craft | HyperFrames-related, marked `internal: true`; repo unknown. **TODO: add links.** |
+| impeccable (~114k stars) | https://github.com/pbakaus/impeccable |
+| graphify (~151k stars) | https://github.com/Graphify-Labs/graphify (older name: safishamsi/graphify, redirects). Install: `pip install graphifyy && graphify install` |
+| design-taste-frontend (~119k stars) | https://github.com/Leonxlnx/taste-skill |
+| emil-design-eng, apple-design, review-animations (~58k stars) | https://github.com/emilkowalski/skills, install with `npx skills add emilkowalski/skills --skill <name>` |
+| captions-overlay, changelog-video, cut-the-curve, motion-doctrine, oversized-cursor, seam-craft (~87k stars) | https://github.com/heygen-com/hyperframes (under `.claude/skills/`). The main HyperFrames skills install with `npx skills add heygen-com/hyperframes` |
+| design-review (~38 stars) | https://github.com/Superfuture/design-review (matched by identical description text) |
+| spline-interactive (~1.4k stars) | https://github.com/freshtechbro/claudedesignskills (matched by description) |
 
 ## Notes
 - No secrets, tokens or personal config are in this repo. My global `~/.claude/CLAUDE.md` and `settings.json` are not included.
